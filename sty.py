@@ -1,51 +1,26 @@
+TEMA_VENTANA = "pulse"
 
-TEMA_VENTANA = "vapor"
+FUENTE_TITULO = ("Segoe UI", 15, "bold")
+FUENTE_ETIQUETA = ("Segoe UI", 10, "normal")
+FUENTE_BOTON = ("Segoe UI", 10, "bold")
+FUENTE_RESULTADO = ("Segoe UI", 11, "bold")
 
-FUENTETIPO = "Century Gothic" if "Century Gothic" else "Segoe UI"
-
-FUENTE_TITULO = (FUENTETIPO, 18, "bold")
-FUENTE_SUBTITULO = (FUENTETIPO, 11, "italic")
-FUENTE_ETIQUETA = (FUENTETIPO, 10, "normal")
-FUENTE_BOTON = (FUENTETIPO, 11, "bold")
-FUENTE_RESULTADO = (FUENTETIPO, 12, "bold")
-
-# BOOTSTYLES (COLORES Y ESTILOS DE COMPONENTES)
-# En el tema 'vapor':
-# 'primary'  -> Rosa / Magenta Neón
-# 'info'     -> Cían / Turquesa Bright
-# 'secondary'-> Morado Neón / Suave
-# 'light'    -> Blanco / Rosa pastel muy claro
 BOOTSTYLE_TITULO = "primary"
-BOOTSTYLE_ETIQUETA = "light"
+BOOTSTYLE_ETIQUETA = "secondary"
 
 BOOTSTYLE_CALENDARIO = "primary"
-BOOTSTYLE_BOTON = "primary-outline"  # Botón delineado para estilo más chic y moderno
+BOOTSTYLE_BOTON = "primary"
 
-# Estilos para alertas, estados y resultados
-BOOTSTYLE_EXITO = "info"            # Turquesa Neón
-BOOTSTYLE_ADVERTENCIA = "warning"   # Amarillo/Naranja Neón
-BOOTSTYLE_ERROR = "danger"          # Rojo/Rosa Intenso
+BOOTSTYLE_EXITO = "success"       
+BOOTSTYLE_ADVERTENCIA = "warning"   
+BOOTSTYLE_ERROR = "danger"          
 
-# Estilos específicos para Cuadros de Mensaje (MessageBox)
-BOOTSTYLE_MSG_TITULO = "primary"
-BOOTSTYLE_MSG_EXITO = "info"
-BOOTSTYLE_MSG_ERROR = "danger"
-BOOTSTYLE_MSG_ADVERTENCIA = "warning"
+VENTANA_ANCHO = 1000
+VENTANA_ALTO = 1000
+PAD_X = 12
+PAD_Y = 12
+PAD_TITULO_Y = (15, 10)
 
-# DIMENSIONES Y ESPACIADOS
-VENTANA_ANCHO = 520
-VENTANA_ALTO = 530
-PAD_X = 20
-PAD_Y = 15
-PAD_TITULO_Y = (20, 5)
-
-# TEXTOS Y DECORACIÓN (Aesthetic Touch)
-TEXTO_TITULO = "  "
-TEXTO_SUBTITULO = "  "
-TEXTO_ETIQUETA_FECHA = " "
-TEXTO_BOTON_CALCULAR = " "
-
-# Mensajes para MessageBox
-MSG_TITULO_EXITO = " "
-MSG_TITULO_ERROR = " "
-MSG_TITULO_ADVERTENCIA = " "
+TEXTO_TITULO = "Calculadora de Jubilación"
+TEXTO_ETIQUETA_FECHA = "Fecha de Nacimiento:"
+TEXTO_BOTON_CALCULAR = "Calcular Jubilación"
